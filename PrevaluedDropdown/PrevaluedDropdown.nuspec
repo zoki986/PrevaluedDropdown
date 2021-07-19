@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>UmbracoPrevaluedDropdown</id>
+    <version>1.0.1</version>
+    <authors>Zoran Latinovic</authors>
+    <owners>Zoran Latinovic</owners>
+    <projectUrl>https://github.com/zoki986/PrevaluedDropdown</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dropdown with prevalues from file</description>
+    <releaseNotes><![CDATA[1.0.0 Initial release]]></releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>umbraco, umbraco-cms</tags>
+	<dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\PrevaluedDropdown.dll" target="lib\net472" />
+    <file src="App_Plugins\PrevaluedDropdown\**\*.*" target="content\App_Plugins\PrevaluedDropdown" />
+  </files>
+</package>
